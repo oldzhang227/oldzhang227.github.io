@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>C#中的字符串 | old张的Blog</title><meta name="author" content="old张"><meta name="copyright" content="old张"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="在任何编程语言中，字符串都是一个用的非常多的基础类型，在C#字符串的类 System.String ，直接继承自 System.Object ，是引用类型，因此字符串总是在堆上分配的内存，受到gc垃圾回收的管理，同时在C#中字符串是不可变的，一个字符串被修改后总是产生了的实例，而不是在原来的实例上的修改，了解这点非常重要。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>C#中的字符串 | old张的Blog</title><meta name="author" content="old张"><meta name="copyright" content="old张"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="在任何编程语言中，字符串都是一个用的非常多的基础类型，在C#字符串的类 System.String ，直接继承自 System.Object ，是引用类型，因此字符串总是在堆上分配的内存，受到gc垃圾回收的管理，同时在C#中字符串是不可变的，一个字符串被修改后总是产生了的实例，而不是在原来的实例上的修改，了解这点非常重要。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C#中的字符串">
 <meta property="og:url" content="https://oldzhang227.github.io/2024/05/22/String/index.html">
@@ -131,7 +131,7 @@
       win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
       const t = saveToLocal.get('theme')
